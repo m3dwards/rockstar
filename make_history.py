@@ -134,24 +134,6 @@ def main():
             os.system(command)
 
     print "Done"
-        
-    
-
-    # grid is 53 * 7 with top row being day 6 Sunday and bottom row being Saturday (day 5)
-
-    #>>> d.strftime("%d/%m/%y")
-    #'11/03/02'
-    #>>> d.strftime("%A %d. %B %Y")
-    #'Monday 11. March 2002'
-    #>>> 'The {1} is {0:%d}, the {2} is {0:%B}.'.format(d, "day", "month")
-    #'The day is 11, the month is March.'
-
-    #datetime.datetime.today().weekday()
-    #4
-    #Return the day of the week as an integer, where Monday is 0 and Sunday is 6.
-
-    #GIT_AUTHOR_DATE='your date' GIT_COMMITTER_DATE='your date' git commit -m 'new (old) files'
-    #GIT_AUTHOR_DATE='Fri Jul 26 19:32:10 2013 -0400' GIT_COMMITTER_DATE='Fri Jul 26 19:32:10 2013 -0400' git commit
 
 if __name__ == "__main__":
     main()
